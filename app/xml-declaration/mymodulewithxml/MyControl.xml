@@ -1,4 +1,4 @@
 <StackLayout>
   <Label id="Label1" />
-  <Button text="Click!" tap="buttonTap" />
+  <Button id="Button1" text="Click!" tap="buttonTap" />
 </StackLayout>
