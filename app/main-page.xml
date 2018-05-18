@@ -1,11 +1,11 @@
 <Page
     xmlns="http://schemas.nativescript.org/tns.xsd"
     xmlns:customControls="xml-declaration/mymodule"
-    xmlns:customOtherControls="xml-declaration/mymodulewithxml" >
+    xmlns:customOtherControls="xml-declaration/mymodulewithxml"
+>
 
     <StackLayout>
         <customControls:CodeOnlyControl />
         <customOtherControls:MyControl />
     </StackLayout>
-
 </Page>
