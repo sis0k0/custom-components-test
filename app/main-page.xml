@@ -1,5 +1,7 @@
 <Page
     xmlns="http://schemas.nativescript.org/tns.xsd"
-    navigatingTo="navigatingTo" class="page">
+    xmlns:customOtherControls="xml-declaration/mymodulewithxml" >
+
+    <customOtherControls:MyControl />
 
 </Page>
