@@ -2,9 +2,11 @@
     xmlns="http://schemas.nativescript.org/tns.xsd"
     xmlns:customControls="xml-declaration/mymodule"
     xmlns:customOtherControls="xml-declaration/mymodulewithxml"
+    xmlns:appHeader="xml-declaration/app-header"
 >
 
     <StackLayout>
+        <appHeader:header />
         <customControls:CodeOnlyControl />
         <customOtherControls:MyControl />
     </StackLayout>
